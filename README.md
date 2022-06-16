@@ -43,7 +43,7 @@ Since this was not part of an entire website, I wanted to keep the code lean. I 
 
 Since I am working on a free account, I don't have access to the Figma and Sketch files. I opened up Photoshop and examined the elements to determine the intended sizes. After finding widths and border-radius, I was ready to get started with the other details laid out in the style guide.
 
-The second problem I needed to solve was the vertical alignment for all devices. I worked through a few Google and StackOverflow entries, but in the end I went to Devdocs.io to learn Flexbox. After understanding the layout parameters, I was able to engineer a solution with the addition of a height: 100vh on the .wrap div.
+The second problem I needed to solve was the vertical alignment for all devices. I worked through a few Google and StackOverflow entries, but in the end I went to Devdocs.io to learn Flexbox. After understanding the layout parameters, I was able to engineer a solution with the addition of a height on the .wrap div.
 
 Finally, I wanted to make sure the design looked good on mobile devices, so I added some padding to ensure the design would stay intact on devices smaller than 320 pixels. This caused me to measure the final project, which I found was wider than the original design. I solved this by subtracting the padding from the max-width.
 
